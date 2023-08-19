@@ -1,0 +1,96 @@
+body {
+    text-align: center;
+    font-family: 'Happy Monkey', cursive;
+    background: linear-gradient(#a2d2ff,#EFB0C9);
+    color: #ffffff;
+}
+
+h1, h2, h3, h4, p {
+    text-shadow: 0 0 1px black;
+}
+
+#bff-img {
+    width: 150px;
+    border-radius: 50%;
+    border: 6px solid #EFB0C9;
+    margin-bottom: 10px;
+}
+
+#bday-age {
+    background: #EFB0C9;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin: 5 0 10 0;
+}
+
+#bday-date {
+    margin: 0;
+    background: #EFB0C9;
+    padding: 5px 10px;
+    border-radius: 5px;
+   
+}
+
+#header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.gift-section {
+    margin-top: 50px;
+}
+
+.gift-title {
+    margin-bottom: 10px;
+}
+
+.gift-hint {
+    margin-top: 0;
+}
+
+
+.gift-img{
+    background-image: url("gift.png");
+    background-size: cover;
+    width: 400px;
+    height: 400px;
+    border: 6px solid white;
+    border-radius: 10px;
+    margin: 0 auto;
+    
+}
+
+#gift-img-happy:hover {
+    background-image: url("friends-happy.gif");
+}
+
+#gift-img-hot:hover {
+    background-image: url("grandmawink.gif");
+}
+
+#gift-img-oneword:hover{
+    background-image: url("genius.gif");
+    background-size: contain;
+    
+}
+#gift-img-badass:hover{
+    background-image: url("darthvader.gif");
+    background-size: cover;
+    
+    
+}
+
+#gift-img-cheers{
+    height: 200px;
+}
+
+#gift-img-cheers:hover{
+    background-image: url("cheer.gif");
+    background-size: contain;
+    
+    
+    
+    
+}
+
